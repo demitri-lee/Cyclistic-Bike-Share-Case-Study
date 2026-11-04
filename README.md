@@ -40,18 +40,25 @@ The analysis focused on differences between casual riders and annual members acr
 
 ### 1. Casual rides are more concentrated on weekends
 Casual rides showed a stronger weekend pattern than annual member rides. Saturday accounted for **21.25% of all casual rides**, compared with **12.76% of annual member rides**. Annual member rides were more evenly distributed throughout the workweek.
+![Ride Distribution by Day of the Week](Ride%20Distribution%20by%20Day%20of%20the%20Week.png)
 
 ### 2. Annual members show stronger commuting-related patterns
 Annual member rides showed clear peaks during typical commuting hours, particularly around **7–8 a.m.** and **4–6 p.m.** The largest member peak occurred at **5 p.m., accounting for 10.79% of annual member rides**. Casual rides were more gradually distributed throughout the afternoon and early evening.
+![Ride Distribution by Time of Day](Ride%20Distribution%20by%20Time%20of%20Day.png)
 
 ### 3. Casual rides tend to last longer
 Casual rides averaged **17.76 minutes**, compared with **12.03 minutes** for annual members. Median ride duration was also higher for casual rides at **10.88 minutes**, compared with **8.58 minutes** for members.
+![Ride Duration by Rider Type](Ride%20Duration%20by%20Rider%20Type.png)
 
 ### 4. Casual usage is more seasonal
 Both rider types were more active during warmer months, but casual usage showed stronger seasonal concentration. **16.35% of all casual rides occurred in July**, while annual member rides reached their highest monthly share in August at **13.09%**.
+![Ride Distribution by Month](Ride%20Distribution%20by%20Month.png)
 
 ### 5. Casual rides are more concentrated around recreational and tourist destinations
 Casual rides were more concentrated at stations near destinations such as Navy Pier, Millennium Park, Shedd Aquarium, and the lakefront. The top 10 casual starting stations accounted for approximately **11.75% of casual rides with known starting stations**, compared with **6.14% of annual member rides with known starting stations**.
+![Top 10 Starting Stations - Casual Riders](Top%2010%20Starting%20Stations%20-%20Casual%20Riders.png)
+![Top 10 Starting Stations - Annual Members](Top%2010%20Starting%20Stations%20-%20Annual%20Members.png)
+
 ## Business Recommendations
 
 ### 1. Target high-traffic recreational and tourist stations
