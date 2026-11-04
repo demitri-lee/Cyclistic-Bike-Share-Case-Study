@@ -45,7 +45,6 @@ Casual rides showed a stronger weekend pattern than annual member rides. Saturda
 ### 2. Annual members show stronger commuting-related patterns
 Annual member rides showed clear peaks during typical commuting hours, particularly around **7–8 a.m.** and **4–6 p.m.** The largest member peak occurred at **5 p.m., accounting for 10.79% of annual member rides**. Casual rides were more gradually distributed throughout the afternoon and early evening.
 ![Ride Distribution by Time of Day](Ride%20Distribution%20by%20Time%20of%20Day.png)
-
 ### 3. Casual rides tend to last longer
 Casual rides averaged **17.76 minutes**, compared with **12.03 minutes** for annual members. Median ride duration was also higher for casual rides at **10.88 minutes**, compared with **8.58 minutes** for members.
 ![Ride Duration by Rider Type](Ride%20Duration%20by%20Rider%20Type.png)
