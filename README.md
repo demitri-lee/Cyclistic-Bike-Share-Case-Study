@@ -68,3 +68,16 @@ The effectiveness of the promotion could be measured by tracking offer exposure,
 Casual riders were more concentrated on weekends and during warmer months. Saturday alone accounted for **21.25% of casual rides**, compared with **12.76% of annual member rides**.
 
 Cyclistic should concentrate annual-membership marketing during these high-usage periods through station signage, in-app messaging, email, or post-ride promotions. Campaign performance could be measured using engagement and membership conversion rates.
+## Project Limitations
+
+The dataset contains individual trip records but does not include personally identifiable rider information. Because of this, the analysis cannot determine whether the same casual rider completed multiple trips, whether casual riders live within the service area, or whether an individual rider purchased multiple single-ride passes.
+
+Ride purpose is also not directly recorded. Patterns such as commuting, tourism, or recreational use are therefore inferred from factors such as ride timing, duration, and starting station rather than confirmed directly.
+
+Some trips also contained missing station information. These rides were retained when they passed the cleaning criteria but were excluded from station-ranking analysis when the starting station could not be identified.
+
+## Conclusion
+
+The analysis identified several meaningful differences between casual riders and annual members. Casual rides were more concentrated on weekends, during warmer months, and around recreational and tourist-area stations. Casual rides also tended to last longer. Annual member rides were more evenly distributed throughout the workweek and showed stronger peaks during typical commuting hours.
+
+These findings suggest that Cyclistic could improve its membership-conversion strategy by targeting casual riders at high-traffic recreational locations, promoting membership upgrades after longer rides, and concentrating campaigns during weekends and warmer months when casual usage is highest.
