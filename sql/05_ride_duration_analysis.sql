@@ -1,29 +1,30 @@
--- Cyclistic Bike-Share Case Study
--- Analysis 3: Ride Duration by Rider Type
--- Compares average and median ride duration for casual riders and annual members.
-
-WITH filtered_data AS (
-  SELECT
-    member_casual,
-    ride_length_minutes
-  FROM
-    `spartan-amphora-465916-r4.cyclistic_data.cyclistic_analysis_ready`
-  WHERE
-    ride_date >= DATE '2025-10-01'
-    AND ride_date < DATE '2026-10-01'
-)
-
-SELECT
+SELECT DISTINCT
   member_casual,
-  COUNT(*) AS ride_count,
-  ROUND(AVG(ride_length_minutes), 2) AS average_ride_minutes,
+
+  COUNT(*) OVER (
+    PARTITION BY member_casual
+  ) AS ride_count,
+
   ROUND(
-    APPROX_QUANTILES(ride_length_minutes, 100)[OFFSET(50)],
+    AVG(ride_length_minutes) OVER (
+      PARTITION BY member_casual
+    ),
+    2
+  ) AS average_ride_minutes,
+
+  ROUND(
+    PERCENTILE_CONT(ride_length_minutes, 0.5) OVER (
+      PARTITION BY member_casual
+    ),
     2
   ) AS median_ride_minutes
 
-FROM filtered_data
+FROM
+  `spartan-amphora-465916-r4.cyclistic_data.cyclistic_analysis_ready`
 
-GROUP BY member_casual
+WHERE
+  ride_date >= DATE '2025-10-01'
+  AND ride_date < DATE '2026-10-01'
 
-ORDER BY member_casual;
+ORDER BY
+  member_casual;
