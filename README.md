@@ -4,6 +4,12 @@
 
 This case study analyzes 12 months of Cyclistic bike-share trip data to understand how casual riders and annual members use the service differently. The goal of the analysis is to identify patterns that could help Cyclistic develop strategies to convert more casual riders into annual members.
 
+## Project Files
+
+- [View the Full Portfolio Report](Cyclistic_Case_Study_Report_Final.pdf)
+- [View the Excel Case Study](Cyclistic%20Case%20Study.xlsx)
+- [View the SQL Analysis](sql/)
+
 ## Business Question
 
 **How do annual members and casual riders use Cyclistic bikes differently?**
