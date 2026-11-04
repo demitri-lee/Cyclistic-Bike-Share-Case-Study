@@ -1,19 +1,12 @@
--- Cyclistic Bike-Share Case Study
--- Analysis 1: Ride Distribution by Day of Week
--- Compares how each rider type's annual rides are distributed across the week.
-
 WITH filtered_data AS (
-  SELECT
-    day_of_week,
-    day_of_week_number,
-    member_casual
-  FROM
-    `spartan-amphora-465916-r4.cyclistic_data.cyclistic_analysis_ready`
+  SELECT *
+  FROM `spartan-amphora-465916-r4.cyclistic_data.cyclistic_analysis_ready`
   WHERE
     ride_date >= DATE '2025-10-01'
     AND ride_date < DATE '2026-10-01'
 ),
 
+#Start of the analysis
 day_counts AS (
   SELECT
     day_of_week,
@@ -39,16 +32,14 @@ SELECT
   total_rides,
   casual_rides,
   ROUND(
-    SAFE_DIVIDE(casual_rides, total_casual_rides) * 100,
+    100 * SAFE_DIVIDE(casual_rides, total_casual_rides),
     2
   ) AS casual_percentage,
   member_rides,
   ROUND(
-    SAFE_DIVIDE(member_rides, total_member_rides) * 100,
+    100 * SAFE_DIVIDE(member_rides, total_member_rides),
     2
   ) AS member_percentage
-
 FROM day_counts
 CROSS JOIN rider_totals
-
 ORDER BY day_of_week_number;
