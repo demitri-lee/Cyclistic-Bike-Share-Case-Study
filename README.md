@@ -52,3 +52,19 @@ Both rider types were more active during warmer months, but casual usage showed 
 
 ### 5. Casual rides are more concentrated around recreational and tourist destinations
 Casual rides were more concentrated at stations near destinations such as Navy Pier, Millennium Park, Shedd Aquarium, and the lakefront. The top 10 casual starting stations accounted for approximately **11.75% of casual rides with known starting stations**, compared with **6.14% of annual member rides with known starting stations**.
+## Business Recommendations
+
+### 1. Target high-traffic recreational and tourist stations
+Cyclistic should target casual riders at high-traffic recreational and tourist-area stations with advertising that promotes the benefits of becoming an annual member. The top 10 casual starting stations accounted for approximately **11.75% of casual rides with known starting stations**, compared with **6.14% of annual member rides with known starting stations**.
+
+Cyclistic could use location-specific QR codes or promotional codes to measure how many riders exposed to the campaign later convert to annual memberships.
+
+### 2. Promote membership upgrades after longer casual rides
+Casual rides averaged **17.76 minutes**, compared with **12.03 minutes** for annual members. Cyclistic could offer casual riders who complete longer rides a targeted promotion encouraging them to upgrade to an annual membership.
+
+The effectiveness of the promotion could be measured by tracking offer exposure, redemption, and membership conversion rates.
+
+### 3. Focus membership campaigns on weekends and warmer months
+Casual riders were more concentrated on weekends and during warmer months. Saturday alone accounted for **21.25% of casual rides**, compared with **12.76% of annual member rides**.
+
+Cyclistic should concentrate annual-membership marketing during these high-usage periods through station signage, in-app messaging, email, or post-ride promotions. Campaign performance could be measured using engagement and membership conversion rates.
